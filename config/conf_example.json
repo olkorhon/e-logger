@@ -1,0 +1,17 @@
+// ##########################   NOTE   ##########################
+// #                                                            #
+// # Comments are only here to document the config parameters   #
+// #         They are not part of the valid json format         #
+// #                                                            #
+// ##############################################################
+{
+    // Startup banner art, eg. production, development, test...
+    "startupBanner": true,
+
+    // -- Logging levels --
+    // 0: silent    1: error    2: warn
+    // 3: info      4: debug    5: verbose
+    // 6: silly
+    "consoleDefaultLevel": 4,
+    "fileLogLevel": 6
+}

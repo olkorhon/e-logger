@@ -1,0 +1,20 @@
+{
+  "name": "a-logger",
+  "version": "1.0.0",
+  "description": "module that provides extended logging features",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js"
+  },
+  "keywords": [
+    "logging"
+  ],
+  "author": "Olli Korhonen",
+  "license": "MIT",
+  "dependencies": {
+    "argparse": "^1.0.9",
+    "colors": "^1.1.2",
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.4.6"
+  }
+}
